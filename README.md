@@ -25,7 +25,7 @@
 
 ```sh
 python3 input_audit.py
-python3 -m unittest discover -v
+python3 -m unittest discover -s tests -v
 ```
 
 可在第一条命令后指定另一个输入目录，目录中的同名 CSV 沿用上述格式。列名和基础引用清单见 `input_contract.json`。
