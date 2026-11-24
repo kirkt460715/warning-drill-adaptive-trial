@@ -1,0 +1,13 @@
+round,village,horn,language,teacher,service,available
+R1,T1,H1,jin,I1,night,true
+R1,T2,H1,mandarin,I1,night,true
+R1,T3,H2,jin,I2,day,true
+R1,T4,H3,mandarin,I3,day,true
+R2,T1,H1,jin,I1,night,true
+R2,T2,H2,mandarin,I1,night,true
+R2,T3,H2,jin,I2,day,true
+R2,T4,H3,mandarin,I3,day,false
+R3,T1,H1,jin,I1,night,true
+R3,T2,H2,mandarin,I2,night,true
+R3,T3,H2,jin,I2,day,true
+R3,T4,H3,mandarin,I3,day,true

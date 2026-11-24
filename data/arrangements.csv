@@ -1,0 +1,9 @@
+round,opportunity,variants,standard_required,max_visits,site_version
+R1,O1,full|short,true,36,P01
+R1,O2,full|short,true,30,P01
+R2,O1,full|short,true,24,P01
+R2,O2,full|short,true,30,P02
+R2,O3,full,true,12,P01
+R3,O1,full|short,true,28,P02
+R3,O2,full|short,true,26,P02
+R3,O3,full|short,true,36,P01

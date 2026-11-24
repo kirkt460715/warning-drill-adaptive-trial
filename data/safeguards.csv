@@ -1,0 +1,5 @@
+language,service,min_gain,max_wrong,eligible_blocks
+jin,night,0.06,0.12,3
+mandarin,night,0.04,0.10,3
+jin,day,0.04,0.12,4
+mandarin,day,0.04,0.12,3

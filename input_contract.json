@@ -1,0 +1,73 @@
+{
+  "tables": {
+    "catchments": [
+      "round",
+      "village",
+      "horn",
+      "language",
+      "teacher",
+      "service",
+      "available"
+    ],
+    "arrangements": [
+      "round",
+      "opportunity",
+      "variants",
+      "standard_required",
+      "max_visits",
+      "site_version"
+    ],
+    "safeguards": [
+      "language",
+      "service",
+      "min_gain",
+      "max_wrong",
+      "eligible_blocks"
+    ],
+    "assignments": [
+      "round",
+      "block",
+      "horn",
+      "assigned",
+      "marginal_prob",
+      "opportunity"
+    ],
+    "roster": [
+      "round",
+      "block",
+      "household",
+      "village",
+      "horn",
+      "previous_known"
+    ],
+    "playback": [
+      "round",
+      "block",
+      "horn",
+      "delivered",
+      "site_version"
+    ],
+    "interviews": [
+      "round",
+      "block",
+      "household",
+      "visiting_group",
+      "answer",
+      "prob_contact"
+    ]
+  },
+  "references": [
+    [
+      "interviews",
+      "household",
+      "roster",
+      "household"
+    ],
+    [
+      "playback",
+      "horn",
+      "catchments",
+      "horn"
+    ]
+  ]
+}
