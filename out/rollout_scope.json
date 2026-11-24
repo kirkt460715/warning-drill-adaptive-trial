@@ -1,0 +1,234 @@
+{
+  "strata": {
+    "jin|day": {
+      "verdict": "暂不推广",
+      "basis_version": "P01",
+      "reasons": [
+        "理解度改善下限 -0.215 未达到 0.04",
+        "误选行动比例上限 0.369 越过 0.12"
+      ],
+      "by_version": {
+        "P01": {
+          "blocks": {
+            "full": 9,
+            "short": 8
+          },
+          "gates": {
+            "blocks_ok": true,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "未达标",
+            "reasons": [
+              "理解度改善下限 -0.215 未达到 0.04",
+              "误选行动比例上限 0.369 越过 0.12"
+            ]
+          }
+        },
+        "P02": {
+          "blocks": {
+            "full": 3,
+            "short": 3
+          },
+          "gates": {
+            "blocks_ok": true,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "未达标",
+            "reasons": [
+              "理解度改善下限 -0.787 未达到 0.04",
+              "误选行动比例上限 1.034 越过 0.12"
+            ]
+          }
+        }
+      },
+      "evidence_rounds": [
+        "R1",
+        "R2"
+      ]
+    },
+    "jin|night": {
+      "verdict": "暂不推广",
+      "basis_version": "P01",
+      "reasons": [
+        "理解度改善下限 -0.143 未达到 0.06",
+        "误选行动比例上限 0.673 越过 0.12"
+      ],
+      "by_version": {
+        "P01": {
+          "blocks": {
+            "full": 13,
+            "short": 5
+          },
+          "gates": {
+            "blocks_ok": true,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "未达标",
+            "reasons": [
+              "理解度改善下限 -0.143 未达到 0.06",
+              "误选行动比例上限 0.673 越过 0.12"
+            ]
+          }
+        },
+        "P02": {
+          "blocks": {
+            "full": 6,
+            "short": 0
+          },
+          "gates": {
+            "blocks_ok": false,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "证据不足",
+            "reasons": [
+              "独立区组不足（full 6、short 0，至少共需 3 且各臂不少于 2）"
+            ]
+          }
+        }
+      },
+      "evidence_rounds": [
+        "R1",
+        "R2"
+      ]
+    },
+    "mandarin|day": {
+      "verdict": "暂不推广",
+      "basis_version": "P01",
+      "reasons": [
+        "理解度改善下限 -0.377 未达到 0.04",
+        "误选行动比例上限 0.832 越过 0.12"
+      ],
+      "by_version": {
+        "P01": {
+          "blocks": {
+            "full": 6,
+            "short": 6
+          },
+          "gates": {
+            "blocks_ok": true,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "未达标",
+            "reasons": [
+              "理解度改善下限 -0.377 未达到 0.04",
+              "误选行动比例上限 0.832 越过 0.12"
+            ]
+          }
+        },
+        "P02": {
+          "blocks": {
+            "full": 0,
+            "short": 0
+          },
+          "gates": {
+            "blocks_ok": false,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "证据不足",
+            "reasons": [
+              "独立区组不足（full 0、short 0，至少共需 3 且各臂不少于 2）"
+            ]
+          }
+        }
+      },
+      "evidence_rounds": [
+        "R1",
+        "R2"
+      ]
+    },
+    "mandarin|night": {
+      "verdict": "暂不推广",
+      "basis_version": "P01",
+      "reasons": [
+        "理解度改善下限 -0.352 未达到 0.04",
+        "误选行动比例上限 0.644 越过 0.1"
+      ],
+      "by_version": {
+        "P01": {
+          "blocks": {
+            "full": 12,
+            "short": 6
+          },
+          "gates": {
+            "blocks_ok": true,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "未达标",
+            "reasons": [
+              "理解度改善下限 -0.352 未达到 0.04",
+              "误选行动比例上限 0.644 越过 0.1"
+            ]
+          }
+        },
+        "P02": {
+          "blocks": {
+            "full": 3,
+            "short": 3
+          },
+          "gates": {
+            "blocks_ok": true,
+            "gain_ok": false,
+            "wrong_ok": false,
+            "verdict": "未达标",
+            "reasons": [
+              "理解度改善下限 -0.833 未达到 0.04",
+              "误选行动比例上限 1.759 越过 0.1"
+            ]
+          }
+        }
+      },
+      "evidence_rounds": [
+        "R1",
+        "R2"
+      ]
+    }
+  },
+  "cannot_roll_out": [
+    {
+      "stratum": "jin|day",
+      "verdict": "暂不推广",
+      "reasons": [
+        "理解度改善下限 -0.215 未达到 0.04",
+        "误选行动比例上限 0.369 越过 0.12"
+      ]
+    },
+    {
+      "stratum": "jin|night",
+      "verdict": "暂不推广",
+      "reasons": [
+        "理解度改善下限 -0.143 未达到 0.06",
+        "误选行动比例上限 0.673 越过 0.12"
+      ]
+    },
+    {
+      "stratum": "mandarin|day",
+      "verdict": "暂不推广",
+      "reasons": [
+        "理解度改善下限 -0.377 未达到 0.04",
+        "误选行动比例上限 0.832 越过 0.12"
+      ]
+    },
+    {
+      "stratum": "mandarin|night",
+      "verdict": "暂不推广",
+      "reasons": [
+        "理解度改善下限 -0.352 未达到 0.04",
+        "误选行动比例上限 0.644 越过 0.1"
+      ]
+    }
+  ],
+  "current_info_ok": true,
+  "exceptions": [
+    "R2 有 12 处分配与实播不一致（喇叭 H3），该轮按当时安排留存，后续统计已按实播重判"
+  ],
+  "key_populations": {
+    "night": {
+      "jin|night": "暂不推广",
+      "mandarin|night": "暂不推广"
+    },
+    "jin": {
+      "jin|day": "暂不推广",
+      "jin|night": "暂不推广"
+    }
+  }
+}

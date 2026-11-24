@@ -1,0 +1,819 @@
+{
+  "round": "R3",
+  "n_blocks": 12,
+  "confirmatory": false,
+  "deficits": {
+    "P01": [
+      {
+        "stratum": "jin|day",
+        "eligible_blocks": 4,
+        "reason": "理解度改善下限 -0.215 未达到 0.04；误选行动比例上限 0.369 越过 0.12"
+      },
+      {
+        "stratum": "jin|night",
+        "eligible_blocks": 3,
+        "reason": "理解度改善下限 -0.143 未达到 0.06；误选行动比例上限 0.673 越过 0.12"
+      },
+      {
+        "stratum": "mandarin|day",
+        "eligible_blocks": 3,
+        "reason": "理解度改善下限 -0.377 未达到 0.04；误选行动比例上限 0.832 越过 0.12"
+      },
+      {
+        "stratum": "mandarin|night",
+        "eligible_blocks": 3,
+        "reason": "理解度改善下限 -0.352 未达到 0.04；误选行动比例上限 0.644 越过 0.1"
+      }
+    ],
+    "P02": [
+      {
+        "stratum": "jin|day",
+        "eligible_blocks": 4,
+        "reason": "理解度改善下限 -0.787 未达到 0.04；误选行动比例上限 1.034 越过 0.12"
+      },
+      {
+        "stratum": "jin|night",
+        "eligible_blocks": 3,
+        "reason": "无证据"
+      },
+      {
+        "stratum": "mandarin|day",
+        "eligible_blocks": 3,
+        "reason": "无证据"
+      },
+      {
+        "stratum": "mandarin|night",
+        "eligible_blocks": 3,
+        "reason": "理解度改善下限 -0.833 未达到 0.04；误选行动比例上限 1.759 越过 0.1"
+      }
+    ]
+  },
+  "need_blocks": {
+    "P01": 6,
+    "P02": 6
+  },
+  "allocation": {
+    "P01": 6,
+    "P02": 6
+  },
+  "blocks": [
+    {
+      "block": "B01",
+      "opportunity": "O3",
+      "site_version": "P01",
+      "max_visits": 36
+    },
+    {
+      "block": "B02",
+      "opportunity": "O1",
+      "site_version": "P02",
+      "max_visits": 28
+    },
+    {
+      "block": "B03",
+      "opportunity": "O3",
+      "site_version": "P01",
+      "max_visits": 36
+    },
+    {
+      "block": "B04",
+      "opportunity": "O1",
+      "site_version": "P02",
+      "max_visits": 28
+    },
+    {
+      "block": "B05",
+      "opportunity": "O3",
+      "site_version": "P01",
+      "max_visits": 36
+    },
+    {
+      "block": "B06",
+      "opportunity": "O1",
+      "site_version": "P02",
+      "max_visits": 28
+    },
+    {
+      "block": "B07",
+      "opportunity": "O3",
+      "site_version": "P01",
+      "max_visits": 36
+    },
+    {
+      "block": "B08",
+      "opportunity": "O1",
+      "site_version": "P02",
+      "max_visits": 28
+    },
+    {
+      "block": "B09",
+      "opportunity": "O3",
+      "site_version": "P01",
+      "max_visits": 36
+    },
+    {
+      "block": "B10",
+      "opportunity": "O1",
+      "site_version": "P02",
+      "max_visits": 28
+    },
+    {
+      "block": "B11",
+      "opportunity": "O3",
+      "site_version": "P01",
+      "max_visits": 36
+    },
+    {
+      "block": "B12",
+      "opportunity": "O1",
+      "site_version": "P02",
+      "max_visits": 28
+    }
+  ],
+  "assignments": [
+    {
+      "round": "R3",
+      "block": "B01",
+      "horn": "H1",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B01",
+      "horn": "H2",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B01",
+      "horn": "H3",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B02",
+      "horn": "H1",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B02",
+      "horn": "H2",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B02",
+      "horn": "H3",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B03",
+      "horn": "H1",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B03",
+      "horn": "H2",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B03",
+      "horn": "H3",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B04",
+      "horn": "H1",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B04",
+      "horn": "H2",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B04",
+      "horn": "H3",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B05",
+      "horn": "H1",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B05",
+      "horn": "H2",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B05",
+      "horn": "H3",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B06",
+      "horn": "H1",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B06",
+      "horn": "H2",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B06",
+      "horn": "H3",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B07",
+      "horn": "H1",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B07",
+      "horn": "H2",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B07",
+      "horn": "H3",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B08",
+      "horn": "H1",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B08",
+      "horn": "H2",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B08",
+      "horn": "H3",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B09",
+      "horn": "H1",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B09",
+      "horn": "H2",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B09",
+      "horn": "H3",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B10",
+      "horn": "H1",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B10",
+      "horn": "H2",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B10",
+      "horn": "H3",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B11",
+      "horn": "H1",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B11",
+      "horn": "H2",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B11",
+      "horn": "H3",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O3"
+    },
+    {
+      "round": "R3",
+      "block": "B12",
+      "horn": "H1",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B12",
+      "horn": "H2",
+      "assigned": "short",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    },
+    {
+      "round": "R3",
+      "block": "B12",
+      "horn": "H3",
+      "assigned": "full",
+      "marginal_prob": "0.5",
+      "opportunity": "O1"
+    }
+  ],
+  "visits": [
+    {
+      "block": "B01",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B01",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B01",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B01",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B02",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B02",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B02",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B02",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B03",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B03",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B03",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B03",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B04",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B04",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B04",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B04",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B05",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B05",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B05",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B05",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B06",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B06",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B06",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B06",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B07",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B07",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B07",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B07",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B08",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B08",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B08",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B08",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B09",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B09",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B09",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B09",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B10",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B10",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B10",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B10",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B11",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B11",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B11",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B11",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B12",
+      "village": "T1",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B12",
+      "village": "T2",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B12",
+      "village": "T3",
+      "target_visits": 7,
+      "roster_size": 7
+    },
+    {
+      "block": "B12",
+      "village": "T4",
+      "target_visits": 7,
+      "roster_size": 7
+    }
+  ],
+  "units": [
+    {
+      "key": "H1",
+      "horns": [
+        "H1"
+      ],
+      "villages": [
+        "T1"
+      ],
+      "teachers": [
+        "I1"
+      ],
+      "available": true
+    },
+    {
+      "key": "H2",
+      "horns": [
+        "H2"
+      ],
+      "villages": [
+        "T2",
+        "T3"
+      ],
+      "teachers": [
+        "I2"
+      ],
+      "available": true
+    },
+    {
+      "key": "H3",
+      "horns": [
+        "H3"
+      ],
+      "villages": [
+        "T4"
+      ],
+      "teachers": [
+        "I3"
+      ],
+      "available": true
+    }
+  ],
+  "expected": {
+    "jin|day": {
+      "P01": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      },
+      "P02": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      }
+    },
+    "jin|night": {
+      "P01": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      },
+      "P02": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      }
+    },
+    "mandarin|day": {
+      "P01": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      },
+      "P02": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      }
+    },
+    "mandarin|night": {
+      "P01": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      },
+      "P02": {
+        "full_blocks": 3,
+        "short_blocks": 3,
+        "meets_eligible": true
+      }
+    }
+  },
+  "notes": [
+    "单元 H2 共用一台喇叭覆盖 T2, T3，这些村不互相独立，按同一单元分配",
+    "R2 的 mandarin|day 因偏离未并入证据台账，缺口已计入本轮目标",
+    "T2 的解释员由 I1 变为 I2",
+    "解释员 I2 本轮同时负责 T2, T3，相关村的结果不互相独立",
+    "分层 jin|day 上轮约 57% 的户已会或状态未知，本轮新学会结论只基于 previous_known=no 的户",
+    "分层 jin|night 上轮约 57% 的户已会或状态未知，本轮新学会结论只基于 previous_known=no 的户",
+    "分层 mandarin|day 上轮约 57% 的户已会或状态未知，本轮新学会结论只基于 previous_known=no 的户",
+    "分层 mandarin|night 上轮约 57% 的户已会或状态未知，本轮新学会结论只基于 previous_known=no 的户",
+    "所有候选安排均要求现行信息保持可达；本编排不减少现行渠道",
+    "本轮同时使用站点版次 P01, P02，跨版次比较按版次分层汇总"
+  ],
+  "warnings": [],
+  "feasible": true
+}
